@@ -1,5 +1,6 @@
 import mongoose from "mongose"
 const categorySchema = new mongoose.Schema({
+
     name: {
         type: String
     },
