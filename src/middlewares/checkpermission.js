@@ -2,6 +2,7 @@ import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import User from "../models/user";
 dotenv.config();
+
 export const checkPermission = async (req, res, next) => {
     try {
         if (!req.headers.authorization) {
