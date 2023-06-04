@@ -1,6 +1,5 @@
 import mongoose from "mongose"
 const productSchema = new mongoose.Schema(
-
     {
         name: {
             type: String
